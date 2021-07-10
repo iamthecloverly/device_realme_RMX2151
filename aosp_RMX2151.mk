@@ -29,10 +29,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ppui.device_name=Realme-G95-Series \
-    ro.ppui.version=3.6 \
-    ro.ppui.version_code=Unicorn \
+    ro.ppui.version=3.7 \
+    ro.ppui.version_code=Ragnarok \
     ro.ppui.is_official=true \
-    ro.ppui.maintainer_name=sauraj
+    ro.ppui.maintainer_name=Sauraj
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_RMX2151
@@ -44,4 +44,5 @@ PRODUCT_MANUFACTURER := realme
 # Build info
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys"
-
+TARGET_FACE_UNLOCK_SUPPORTED = true
+CUSTOM_BUILD_TYPE=OFFICIAL
